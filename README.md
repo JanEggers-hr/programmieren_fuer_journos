@@ -9,6 +9,7 @@ Material zum 2-Tages-Programmier-Kurs für Journalistinnen und Journalisten
 * [Übung 01: Das erste Colab-Notebook zum Laufen bringen](01_erste_schritte.ipynb)
 * [Übung 02: Bibliotheken einbauen](02_python_erweitern.ipynb)
 * [Übung 03: Eine App mit ipywidgets](03_interaktive_widgets.ipynb)
+* [Übung 04: Etwas HTML und CSS in Svelte](04_svelte.ipynb)
 
 ## Die Software
 
