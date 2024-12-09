@@ -1,0 +1,451 @@
+AGS,Name,Kreis
+411000,Darmstadt,06411
+412000,Frankfurt,06412
+413000,Offenbach,06413
+414000,Wiesbaden,06414
+431000,Landkreis Bergstraße,06431
+431001,Abtsteinach,06431
+431002,Bensheim,06431
+431003,Biblis,06431
+431004,Birkenau,06431
+431005,Bürstadt,06431
+431006,Einhausen,06431
+431007,Fürth,06431
+431008,Gorxheimertal,06431
+431009,Grasellenbach,06431
+431010,Groß-Rohrheim,06431
+431011,Heppenheim (Bergstraße),06431
+431012,Hirschhorn (Neckar),06431
+431013,Lampertheim,06431
+431014,Lautertal (Odenwald),06431
+431015,Lindenfels,06431
+431016,Lorsch,06431
+431017,Mörlenbach,06431
+431018,Neckarsteinach,06431
+431019,Rimbach,06431
+431020,Viernheim,06431
+431021,Wald-Michelbach,06431
+431022,Zwingenberg,06431
+431200,Gemeindefreies Gebiet Michelbuch,06431
+432000,Landkreis Darmstadt-Dieburg,06432
+432001,Alsbach-Hähnlein,06432
+432002,Babenhausen,06432
+432003,Bickenbach,06432
+432004,Dieburg,06432
+432005,Eppertshausen,06432
+432006,Erzhausen,06432
+432007,Fischbachtal,06432
+432008,Griesheim,06432
+432009,Groß-Bieberau,06432
+432010,Groß-Umstadt,06432
+432011,Groß-Zimmern,06432
+432012,Messel,06432
+432013,Modautal,06432
+432014,Mühltal,06432
+432015,Münster,06432
+432016,Ober-Ramstadt,06432
+432017,Otzberg,06432
+432018,Pfungstadt,06432
+432019,Reinheim,06432
+432020,Roßdorf,06432
+432021,Schaafheim,06432
+432022,Seeheim-Jugenheim,06432
+432023,Weiterstadt,06432
+433000,Landkreis Groß-Gerau,06433
+433001,Biebesheim am Rhein,06433
+433002,Bischofsheim,06433
+433003,Büttelborn,06433
+433004,Gernsheim,06433
+433005,Ginsheim-Gustavsburg,06433
+433006,Groß-Gerau,06433
+433007,Kelsterbach,06433
+433008,Mörfelden-Walldorf,06433
+433009,Nauheim,06433
+433010,Raunheim,06433
+433011,Riedstadt,06433
+433012,Rüsselsheim am Main,06433
+433013,Stockstadt am Rhein,06433
+433014,Trebur,06433
+434000,Hochtaunuskreis,06434
+434001,Bad Homburg vor der Höhe,06434
+434002,Friedrichsdorf,06434
+434003,Glashütten,06434
+434004,Grävenwiesbach,06434
+434005,Königstein im Taunus,06434
+434006,Kronberg im Taunus,06434
+434007,Neu-Anspach,06434
+434008,Oberursel (Taunus),06434
+434009,Schmitten,06434
+434010,Steinbach (Taunus),06434
+434011,Usingen,06434
+434012,Wehrheim,06434
+434013,Weilrod,06434
+435000,Main-Kinzig-Kreis,06435
+435001,Bad Orb,06435
+435002,Bad Soden-Salmünster,06435
+435003,Biebergemünd,06435
+435004,Birstein,06435
+435005,Brachttal,06435
+435006,Bruchköbel,06435
+435007,Erlensee,06435
+435008,Flörsbachtal,06435
+435009,Freigericht,06435
+435010,Gelnhausen,06435
+435011,Großkrotzenburg,06435
+435012,Gründau,06435
+435013,Hammersbach,06435
+435014,Hanau,06435
+435015,Hasselroth,06435
+435016,Jossgrund,06435
+435017,Langenselbold,06435
+435018,Linsengericht,06435
+435019,Maintal,06435
+435020,Neuberg,06435
+435021,Nidderau,06435
+435022,Niederdorfelden,06435
+435023,Rodenbach,06435
+435024,Ronneburg,06435
+435025,Schlüchtern,06435
+435026,Schöneck,06435
+435027,Sinntal,06435
+435028,Steinau an der Straße,06435
+435029,Wächtersbach,06435
+435200,Gutsbezirk Spessart,06435
+436000,Main-Taunus-Kreis,06436
+436001,Bad Soden am Taunus,06436
+436002,Eppstein,06436
+436003,Eschborn,06436
+436004,Flörsheim am Main,06436
+436005,Hattersheim am Main,06436
+436006,Hochheim am Main,06436
+436007,Hofheim am Taunus,06436
+436008,Kelkheim (Taunus),06436
+436009,Kriftel,06436
+436010,Liederbach am Taunus,06436
+436011,Schwalbach am Taunus,06436
+436012,Sulzbach (Taunus),06436
+437000,Odenwaldkreis,06437
+437001,Bad König,06437
+437003,Brensbach,06437
+437004,Breuberg,06437
+437005,Brombachtal,06437
+437006,Erbach,06437
+437007,Fränkisch-Crumbach,06437
+437009,Höchst im Odenwald,06437
+437010,Lützelbach,06437
+437011,Michelstadt,06437
+437012,Mossautal,06437
+437013,Reichelsheim (Odenwald),06437
+437016,Oberzent,06437
+438000,Landkreis Offenbach,06438
+438001,Dietzenbach,06438
+438002,Dreieich,06438
+438003,Egelsbach,06438
+438004,Hainburg,06438
+438005,Heusenstamm,06438
+438006,Langen (Hessen),06438
+438007,Mainhausen,06438
+438008,Mühlheim am Main,06438
+438009,Neu-Isenburg,06438
+438010,Obertshausen,06438
+438011,Rodgau,06438
+438012,Rödermark,06438
+438013,Seligenstadt,06438
+439000,Rheingau-Taunus-Kreis,06439
+439001,Aarbergen,06439
+439002,Bad Schwalbach,06439
+439003,Eltville am Rhein,06439
+439004,Geisenheim,06439
+439005,Heidenrod,06439
+439006,Hohenstein,06439
+439007,Hünstetten,06439
+439008,Idstein,06439
+439009,Kiedrich,06439
+439010,Lorch,06439
+439011,Niedernhausen,06439
+439012,Oestrich-Winkel,06439
+439013,Rüdesheim am Rhein,06439
+439014,Schlangenbad,06439
+439015,Taunusstein,06439
+439016,Waldems,06439
+439017,Walluf,06439
+440000,Wetteraukreis,06440
+440001,Altenstadt,06440
+440002,Bad Nauheim,06440
+440003,Bad Vilbel,06440
+440004,Büdingen,06440
+440005,Butzbach,06440
+440006,Echzell,06440
+440007,Florstadt,06440
+440008,Friedberg (Hessen),06440
+440009,Gedern,06440
+440010,Glauburg,06440
+440011,Hirzenhain,06440
+440012,Karben,06440
+440013,Kefenrod,06440
+440014,Limeshain,06440
+440015,Münzenberg,06440
+440016,Nidda,06440
+440017,Niddatal,06440
+440018,Ober-Mörlen,06440
+440019,Ortenberg,06440
+440020,Ranstadt,06440
+440021,Reichelsheim (Wetterau),06440
+440022,Rockenberg,06440
+440023,Rosbach vor der Höhe,06440
+440024,Wölfersheim,06440
+440025,Wöllstadt,06440
+500000,Regierungsbezirk Gießen,06500
+531000,Landkreis Gießen,06531
+531001,Allendorf (Lumda),06531
+531002,Biebertal,06531
+531003,Buseck,06531
+531004,Fernwald,06531
+531005,Gießen,06531
+531006,Grünberg,06531
+531007,Heuchelheim an der Lahn,06531
+531008,Hungen,06531
+531009,Langgöns,06531
+531010,Laubach,06531
+531011,Lich,06531
+531012,Linden,06531
+531013,Lollar,06531
+531014,Pohlheim,06531
+531015,Rabenau,06531
+531016,Reiskirchen,06531
+531017,Staufenberg,06531
+531018,Wettenberg,06531
+532000,Lahn-Dill-Kreis,06532
+532001,Aßlar,06532
+532002,Bischoffen,06532
+532003,Braunfels,06532
+532004,Breitscheid,06532
+532005,Dietzhölztal,06532
+532006,Dillenburg,06532
+532007,Driedorf,06532
+532008,Ehringshausen,06532
+532009,Eschenburg,06532
+532010,Greifenstein,06532
+532011,Haiger,06532
+532012,Herborn,06532
+532013,Hohenahr,06532
+532014,Hüttenberg,06532
+532015,Lahnau,06532
+532016,Leun,06532
+532017,Mittenaar,06532
+532018,Schöffengrund,06532
+532019,Siegbach,06532
+532020,Sinn,06532
+532021,Solms,06532
+532022,Waldsolms,06532
+532023,Wetzlar,06532
+533000,Landkreis Limburg-Weilburg,06533
+533001,Beselich,06533
+533002,Brechen,06533
+533003,Bad Camberg,06533
+533004,Dornburg,06533
+533005,Elbtal,06533
+533006,Elz,06533
+533007,Hadamar,06533
+533008,Hünfelden,06533
+533009,Limburg an der Lahn,06533
+533010,Löhnberg,06533
+533011,Mengerskirchen,06533
+533012,Merenberg,06533
+533013,Runkel,06533
+533014,Selters (Taunus),06533
+533015,Villmar,06533
+533016,Waldbrunn (Westerwald),06533
+533017,Weilburg,06533
+533018,Weilmünster,06533
+533019,Weinbach,06533
+534000,Landkreis Marburg-Biedenkopf,06534
+534001,Amöneburg,06534
+534002,Angelburg,06534
+534003,Bad Endbach,06534
+534004,Biedenkopf,06534
+534005,Breidenbach,06534
+534006,Cölbe,06534
+534007,Dautphetal,06534
+534008,Ebsdorfergrund,06534
+534009,Fronhausen,06534
+534010,Gladenbach,06534
+534011,Kirchhain,06534
+534012,Lahntal,06534
+534013,Lohra,06534
+534014,Marburg,06534
+534015,Münchhausen,06534
+534016,Neustadt (Hessen),06534
+534017,Rauschenberg,06534
+534018,Stadtallendorf,06534
+534019,Steffenberg,06534
+534020,Weimar (Lahn),06534
+534021,Wetter (Hessen),06534
+534022,Wohratal,06534
+535000,Vogelsbergkreis,06535
+535001,Alsfeld,06535
+535002,Antrifttal,06535
+535003,Feldatal,06535
+535004,Freiensteinau,06535
+535005,Gemünden (Felda),06535
+535006,Grebenau,06535
+535007,Grebenhain,06535
+535008,Herbstein,06535
+535009,Homberg (Ohm),06535
+535010,Kirtorf,06535
+535011,Lauterbach (Hessen),06535
+535012,Lautertal (Vogelsberg),06535
+535013,Mücke,06535
+535014,Romrod,06535
+535015,Schlitz,06535
+535016,Schotten,06535
+535017,Schwalmtal,06535
+535018,Ulrichstein,06535
+535019,Wartenberg,06535
+600000,Regierungsbezirk Kassel,06600
+611000,Kassel,06611
+631000,Landkreis Fulda,06631
+631001,Bad Salzschlirf,06631
+631002,Burghaun,06631
+631003,Dipperz,06631
+631004,Ebersburg,06631
+631005,Ehrenberg (Rhön),06631
+631006,Eichenzell,06631
+631007,Eiterfeld,06631
+631008,Flieden,06631
+631009,Fulda,06631
+631010,Gersfeld (Rhön),06631
+631011,Großenlüder,06631
+631012,Hilders,06631
+631013,Hofbieber,06631
+631014,Hosenfeld,06631
+631015,Hünfeld,06631
+631016,Kalbach,06631
+631017,Künzell,06631
+631018,Neuhof,06631
+631019,Nüsttal,06631
+631020,Petersberg,06631
+631021,Poppenhausen (Wasserkuppe),06631
+631022,Rasdorf,06631
+631023,Tann (Rhön),06631
+632000,Landkreis Hersfeld-Rotenburg,06632
+632001,Alheim,06632
+632002,Bad Hersfeld,06632
+632003,Bebra,06632
+632004,Breitenbach am Herzberg,06632
+632005,Cornberg,06632
+632006,Friedewald,06632
+632007,Hauneck,06632
+632008,Haunetal,06632
+632009,Heringen (Werra),06632
+632010,Hohenroda,06632
+632011,Kirchheim,06632
+632012,Ludwigsau,06632
+632013,Nentershausen,06632
+632014,Neuenstein,06632
+632015,Niederaula,06632
+632016,Philippsthal (Werra),06632
+632017,Ronshausen,06632
+632018,Rotenburg an der Fulda,06632
+632019,Schenklengsfeld,06632
+632020,Wildeck,06632
+633000,Landkreis Kassel,06633
+633001,Ahnatal,06633
+633002,Bad Karlshafen,06633
+633003,Baunatal,06633
+633004,Breuna,06633
+633005,Calden,06633
+633006,Bad Emstal,06633
+633007,Espenau,06633
+633008,Fuldabrück,06633
+633009,Fuldatal,06633
+633010,Grebenstein,06633
+633011,Habichtswald,06633
+633012,Helsa,06633
+633013,Hofgeismar,06633
+633014,Immenhausen,06633
+633015,Kaufungen,06633
+633016,Liebenau,06633
+633017,Lohfelden,06633
+633018,Naumburg,06633
+633019,Nieste,06633
+633020,Niestetal,06633
+633021,Oberweser,06633
+633022,Reinhardshagen,06633
+633023,Schauenburg,06633
+633024,Söhrewald,06633
+633025,Trendelburg,06633
+633026,Vellmar,06633
+633027,Wahlsburg,06633
+633028,Wolfhagen,06633
+633029,Zierenberg,06633
+633200,Gutsbezirk Reinhardswald,06633
+634000,Schwalm-Eder-Kreis,06634
+634001,Borken (Hessen),06634
+634002,Edermünde,06634
+634003,Felsberg,06634
+634004,Frielendorf,06634
+634005,Fritzlar,06634
+634006,Gilserberg,06634
+634007,Gudensberg,06634
+634008,Guxhagen,06634
+634009,Homberg (Efze),06634
+634010,Jesberg,06634
+634011,Knüllwald,06634
+634012,Körle,06634
+634013,Malsfeld,06634
+634014,Melsungen,06634
+634015,Morschen,06634
+634016,Neuental,06634
+634017,Neukirchen (Knüll),06634
+634018,Niedenstein,06634
+634019,Oberaula,06634
+634020,Ottrau,06634
+634021,Schrecksbach,06634
+634022,Schwalmstadt,06634
+634023,Schwarzenborn,06634
+634024,Spangenberg,06634
+634025,Wabern,06634
+634026,Willingshausen,06634
+634027,Bad Zwesten,06634
+635000,Landkreis Waldeck-Frankenberg,06635
+635001,Allendorf (Eder),06635
+635002,Bad Arolsen,06635
+635003,Bad Wildungen,06635
+635004,Battenberg (Eder),06635
+635005,Bromskirchen,06635
+635006,Burgwald,06635
+635007,Diemelsee,06635
+635008,Diemelstadt,06635
+635009,Edertal,06635
+635010,Frankenau,06635
+635011,Frankenberg (Eder),06635
+635012,Gemünden (Wohra),06635
+635013,Haina (Kloster),06635
+635014,Hatzfeld (Eder),06635
+635015,Korbach,06635
+635016,Lichtenfels,06635
+635017,Rosenthal,06635
+635018,Twistetal,06635
+635019,Vöhl,06635
+635020,Volkmarsen,06635
+635021,Waldeck,06635
+635022,Willingen (Upland),06635
+636000,Werra-Meißner-Kreis,06636
+636001,Bad Sooden-Allendorf,06636
+636002,Berkatal,06636
+636003,Eschwege,06636
+636004,Großalmerode,06636
+636005,Herleshausen,06636
+636006,Hessisch Lichtenau,06636
+636007,Meinhard,06636
+636008,Meißner,06636
+636009,Neu-Eichenberg,06636
+636010,Ringgau,06636
+636011,Sontra,06636
+636012,Waldkappel,06636
+636013,Wanfried,06636
+636014,Wehretal,06636
+636015,Weißenborn,06636
+636016,Witzenhausen,06636
+636200,Gutsbezirk Kaufunger Wald,06636
