@@ -1,71 +1,47 @@
-# programmieren_fuer_journos
+# Svelte + Vite
 
-Material zum 2-Tages-Programmier-Kurs für Journalistinnen und Journalisten
+This template should help get you started developing with Svelte in Vite.
 
+## Recommended IDE Setup
 
-## Die Lektionen
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-* [Hallo Welt: Wir bringen ein Colab zum Laufen](00_gude_welt.ipynb)
-* [Übung 01: Das erste Colab-Notebook zum Laufen bringen](01_erste_schritte.ipynb)
-* [Übung 02: Bibliotheken einbauen](02_python_erweitern.ipynb)
-* [Übung 03: Eine App mit ipywidgets](03_interaktive_widgets.ipynb)
-* [Übung 04: Etwas HTML und CSS in Svelte](04_svelte.ipynb)
+## Need an official Svelte framework?
 
-## Die Software
+Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-* [Download-Seite Python-Umgebung "Miniconda"](https://docs.anaconda.com/free/miniconda/)
-* [Download-Seite Programmier-Editor VSC](https://code.visualstudio.com/download)
-* [KI-Sprachmodell-Betriebsprogramm Ollama](https://ollama.com/download)
-* Nur zur Info: [KI-Erweiterung "Continue" für VSC](https://marketplace.visualstudio.com/items?itemName=Continue.continue) - holen wir direkt über den VSC-Marketplace
+## Technical considerations
 
-### Mini-Tutorial: Software installieren
+**Why use this over SvelteKit?**
 
-(Setzt voraus, dass ich auf meinem Computer Programme installieren darf - Rechner in Firmennetzen sind damit außen vor, weil sie in der
-Regel nicht erlauben, dass man eine Skriptsprache wie Python nutzt - weil die ein potenzielles Sicherheitsproblem in Firmennetzen ist. 
-Auch ein Programm wie ollama, das die KI-Sprachmodelle über einen eigenen kleinen Server bereitstellt, wird Misstrauen von Firmen-Admins erregen. 
-**Das heißt aber nicht, dass diese Programme allein für den eigenen Rechner ein Sicherheitsrisiko darstellen** - auch wenn das Misstrauen der
-Admins vernünftig ist: Lokale Server verraten oft, dass ein Schadprogramm versucht, Daten nach außen zu transferieren, und Skriptsprachen 
-können genutzt werden, um schädliche Programme auszuführen - was wir aber nicht tun werden.) 
+- It brings its own routing solution which might not be preferable for some users.
+- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
 
-#### Vorbereitung: Programmiersprache Python installieren, falls nötig
+This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
 
-Vielleicht hat unser Rechner längst Python? Um das herauszufinden, müssen wir eine Kommandozeile, bzw. ein Terminal öffnen - auf Windows-Rechnern geht das durch die Windows-Start-Taste und Eintippen
-von "cmd" und Return, auf Macs durch Öffnen des Programms "Terminal". (Linuxer wissen sowieso, wie sie zu einer bash kommen.) Es öffnet sich eins dieser Fenster, das aussieht, wie ein Computer-Terminal
-aus grauer Vorzeit - ein schwarzes Fenster mit grüner oder weißer Schrift, in das wir unsere Befehle eintippen können. Hier probieren wir jetzt mal Folgendes aus: 
+Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
 
-```python --version```
+**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
 
-Wenn Python schon installiert ist, bekommen wir als Antwort die Versionsnummer der installierten Python-Umgebung.
-![Mac-Terminal](./shell.png)
+Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
 
-Wenn der Computer sich beschwert, dass er den Befehl "python" nicht finden kann, oder die Python-Version recht alt ist (3.7 oder früher): 
+**Why include `.vscode/extensions.json`?**
 
-- [Download: "Miniconda"](https://docs.anaconda.com/free/miniconda/) - das  ist ein Paket mit der Skriptsprache
-Python und einigen nützlichen Tools wie der Umgebungs-Verwaltung ```conda```. (Wir kommen dorthin!)
+Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
 
-Das Paket für Windows, MacOs, Linux herunterladen und ausführen. Python wird installiert. 
+**Why enable `checkJs` in the JS template?**
 
-Auf Windows-Rechnern zeigt sich dann übrigens beim Eintippen des "cmd" eine neue Kommandozeile - die "Anaconda Shell".
+It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
 
-- Die **Kommandozeile** ausführen: 
-    - Auf Mac: Das Programm "terminal" suchen und starten
-    - Auf Windows: Startfläche links unten anklicken, "CMD" anklicken (bzw.: nach dem Installieren von Miniconda das "Anaconda Prompt")
-    - Auf Linux: Hey, wer Linux hat, kann das auch selbst.
-  - Ein wenig zwischen den Ordnern herumnavigieren, mit diesen Befehlen: 
-    - ```mkdir name``` legt im augenblicklichen Ordner einen Unterordner ```name``` an
-    - ```cd name``` wechselt in den Unterordner
-    - ```cd ..``` wechselt zurück in den übergeordneten. 
-    - Inhalt des augenblicklichen Ordners anzeigen lassen: ```dir``` (Windows) bzw. ```ls -l``` (Mac und Linux)
-  - Auf der Kommandozeile eingeben: ```python``` - wir kriegen ```>>>``` als Eingabeaufforderung
-  - In Python rechnen: z.B. ```15 * 5```
+**Why is HMR not preserving my local component state?**
 
-#### Programmier-Umgebung VSC installieren und aufrüsten
+HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
 
-VSC ist ein kostenloses Programm von Microsoft: ein Editor für Programmcode und eine Umgebung, in der man die Programme ausführen und testen kann. Mit Erweiterungsmodulen kann VSC für alle 
-möglichen Zwecke aufgerüstet werden - für uns zum Beispiel um Python-Programme zu nutzen und uns von KI dabei helfen zu lassen. 
+If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
 
-* [Download-Seite Programmier-Editor VSC](https://code.visualstudio.com/download)
-
-Installieren und das erste Mal starten - und Erweiterungen installieren: Am linken Rand ist ein Symbol mit vier kleinen Quadraten, das wie ein Puzzle aussieht - für die Erweiterungen. 
-Darauf klicken, in die Suche "Python" eingeben und die Erweiterungen **Python** und **Python Debugger** installieren. Stammen beide von Microsoft, wie die nächste, deren Namen wir auch erst
-wieder in die Suche eingeben müssen: "jupyter" - die **juPyter**-Erweiterung ermöglicht uns, so genannte Notebooks zu nutzen, in denen wir Programmcode, Dokumentation und Ausgaben speichern können. 
+```js
+// store.js
+// An extremely simple external store
+import { writable } from 'svelte/store'
+export default writable(0)
+```
