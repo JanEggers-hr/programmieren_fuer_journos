@@ -81,8 +81,3 @@ Draufklicken - und beim ersten Fenster auf den Reiter "Best" umschalten: Die vor
 
 - Wer will, kann das "Continue"-Symbol auf den linken oder rechten Sidebar ziehen - dann wird der Chat immer dort angezeigt. 
 - Aufruf: Ctrl-L (bzw. Cmd-L auf dem Mac), um eine allgemeine Frage zu stellen bzw. den markierten Code in die Frage zu übernehmen; Ctrl-I (bzw. Cmd-I), um zu beschreiben, welchen Code man sich am Cursor schreiben lassen möchte, Tab, um vorgeschlagenen Code zu übernehmen. 
-
-
-
-
-- VSC star
