@@ -67,6 +67,22 @@ möglichen Zwecke aufgerüstet werden - für uns zum Beispiel um Python-Programm
 
 * [Download-Seite Programmier-Editor VSC](https://code.visualstudio.com/download)
 
-Installieren und das erste Mal starten - und Erweiterungen installieren: Am linken Rand ist ein Symbol mit vier kleinen Quadraten, das wie ein Puzzle aussieht - für die Erweiterungen. 
-Darauf klicken, in die Suche "Python" eingeben und die Erweiterungen **Python** und **Python Debugger** installieren. Stammen beide von Microsoft, wie die nächste, deren Namen wir auch erst
-wieder in die Suche eingeben müssen: "jupyter" - die **juPyter**-Erweiterung ermöglicht uns, so genannte Notebooks zu nutzen, in denen wir Programmcode, Dokumentation und Ausgaben speichern können. 
+#### In VSC die Plugins nachrüsten
+
+- Installieren und das erste Mal starten - und Erweiterungen installieren: Am linken Rand ist ein Symbol mit vier kleinen Quadraten, das wie ein Puzzle aussieht - für die Erweiterungen. 
+- Darauf klicken, in die Suche "Python" eingeben und die Erweiterungen **Python** und **Python Debugger** installieren. Stammen beide von Microsoft, wie die nächste, deren Namen wir auch erstwieder in die Suche eingeben müssen: "jupyter" - die **juPyter**-Erweiterung ermöglicht uns, so genannte Notebooks zu nutzen, in denen wir Programmcode, Dokumentation und Ausgaben speichern können. 
+- Jetzt: "**Continue**" eingeben - das ist die Erweiterung, über die wir KI beim Programmieren direkt in VSC nutzen können. Auch sie installieren. 
+
+#### KI in Continue einklinken
+
+Nach der Installation von Continue und einem evtl. Neustart erscheint am linken Fensterrand das Continue-Symbol - ein Sechseck mit einer Art Rahmen darum. 
+
+Draufklicken - und beim ersten Fenster auf den Reiter "Best" umschalten: Die vorgegebene KI-Einbindung wollen wir nicht nutzen, sondern einen eigenen API-Key verwenden (wer keinen gespendeten verwenden kann: hier kriegt man ihn für[OpenAI](https://platform.openai.com/settings/organization/api-keys) , hier für [Anthropic](https://console.anthropic.com/settings/keys); jeweils sind Kreditkartendaten bzw. Credits vonnöten). Alternativ kann man auch Ollama als KI einbinden. 
+
+- Wer will, kann das "Continue"-Symbol auf den linken oder rechten Sidebar ziehen - dann wird der Chat immer dort angezeigt. 
+- Aufruf: Ctrl-L (bzw. Cmd-L auf dem Mac), um eine allgemeine Frage zu stellen bzw. den markierten Code in die Frage zu übernehmen; Ctrl-I (bzw. Cmd-I), um zu beschreiben, welchen Code man sich am Cursor schreiben lassen möchte, Tab, um vorgeschlagenen Code zu übernehmen. 
+
+
+
+
+- VSC star
