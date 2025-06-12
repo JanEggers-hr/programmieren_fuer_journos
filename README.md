@@ -80,4 +80,8 @@ Nach der Installation von Continue und einem evtl. Neustart erscheint am linken 
 Draufklicken - und beim ersten Fenster auf den Reiter "Best" umschalten: Die vorgegebene KI-Einbindung wollen wir nicht nutzen, sondern einen eigenen API-Key verwenden (wer keinen gespendeten verwenden kann: hier kriegt man ihn für[OpenAI](https://platform.openai.com/settings/organization/api-keys) , hier für [Anthropic](https://console.anthropic.com/settings/keys); jeweils sind Kreditkartendaten bzw. Credits vonnöten). Alternativ kann man auch Ollama als KI einbinden. 
 
 - Wer will, kann das "Continue"-Symbol auf den linken oder rechten Sidebar ziehen - dann wird der Chat immer dort angezeigt. 
-- Aufruf: Ctrl-L (bzw. Cmd-L auf dem Mac), um eine allgemeine Frage zu stellen bzw. den markierten Code in die Frage zu übernehmen; Ctrl-I (bzw. Cmd-I), um zu beschreiben, welchen Code man sich am Cursor schreiben lassen möchte, Tab, um vorgeschlagenen Code zu übernehmen. 
+- Aufruf: Ctrl-L (bzw. Cmd-L auf dem Mac), um eine allgemeine Frage zu stellen bzw. den markierten Code in die Frage zu übernehmen; Ctrl-I (bzw. Cmd-I), um zu beschreiben, welchen Code man sich am Cursor schreiben lassen möchte, Tab, um vorgeschlagenen Code zu übernehmen.
+
+**Sparfuchs- und Datenschutz-Tipp: Kostenlos Codestral nutzen!** Wer ein (kostenloses) Konto bei der französischen KI [Mistral.ai](https://chat.mistral.ai) hat - was so oder so eine gute Sache ist - kann sich [auf dieser Seite einen API-Key für Codestral generieren](https://console.mistral.ai/codestral), die auf Programmieren spezialisierte Mistral KI. *Und sie dann kostenlos nutzen!* Kostet derzeit also genau nichts und ist sehr gut. 
+
+#### Agenten loslassen
