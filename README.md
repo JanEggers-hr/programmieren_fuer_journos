@@ -2,6 +2,9 @@
 
 Material zum 2-Tages-Programmier-Kurs für Journalistinnen und Journalisten
 
+## Python-Lektüretipp: 
+
+"Automate the boring stuff with Python" von Al Sweigart ist ein Super-Buch, um ins Python-Programmieren einzusteigen - und wie bei allen O'Reilly-Büchern gibt es den [Volltext kostenlos online](https://automatetheboringstuff.com/)! 
 
 ## Die Lektionen
 
@@ -84,4 +87,3 @@ Draufklicken - und beim ersten Fenster auf den Reiter "Best" umschalten: Die vor
 
 **Sparfuchs- und Datenschutz-Tipp: Kostenlos Codestral nutzen!** Wer ein (kostenloses) Konto bei der französischen KI [Mistral.ai](https://chat.mistral.ai) hat - was so oder so eine gute Sache ist - kann sich [auf dieser Seite einen API-Key für Codestral generieren](https://console.mistral.ai/codestral), die auf Programmieren spezialisierte Mistral KI. *Und sie dann kostenlos nutzen!* Kostet derzeit also genau nichts und ist sehr gut. 
 
-#### Agenten loslassen
