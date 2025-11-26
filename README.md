@@ -14,11 +14,13 @@ Material zum 2-Tages-Programmier-Kurs für Journalistinnen und Journalisten
 * [Übung 03: Eine App mit ipywidgets](03_interaktive_widgets.ipynb)
 * [Übung 04: Svelte - Javascript, aber einfach](04_svelte.ipynb)
 * [Übung 05: Ein KI-Chatbot in Streamlit - dem Svelte für Python](05_python_streamlit.ipynb)
+* [Übung 06: Einen Text auswerten - Schlagworte extrahieren mit und ohne KI](06_Textauswertung.ipynb) 
 
 ## Die Software
 
 * [Download-Seite Python-Umgebung "Miniconda"](https://docs.anaconda.com/free/miniconda/)
 * [Download-Seite Programmier-Editor VSC](https://code.visualstudio.com/download)
+* [Download-Seite KI-Programmier-Editor Void](https://voideditor.com/download) - eine Variante von VSC mit KI-Optimierung
 * [KI-Sprachmodell-Betriebsprogramm Ollama](https://ollama.com/download)
 * Nur zur Info: [KI-Erweiterung "Continue" für VSC](https://marketplace.visualstudio.com/items?itemName=Continue.continue) - holen wir direkt über den VSC-Marketplace
 
